@@ -100,13 +100,13 @@ initial_activities = {
     },
     "Manga Maniacs": {
         "description": "Dive into the bold worlds of Japanese manga, from epic heroes and surprising plot twists to unforgettable art and characters.",
-        "schedule": "Tuesdays, 7:00 PM - 8:30 PM",
+        "schedule": "Tuesdays, 5:00 PM - 6:30 PM",
         "schedule_details": {
             "days": ["Tuesday"],
-            "start_time": "19:00",
-            "end_time": "20:30"
+            "start_time": "17:00",
+            "end_time": "18:30"
         },
-        "max_participants": 15,
+        "max_participants": 25,
         "participants": []
     },
     "Drama Club": {
