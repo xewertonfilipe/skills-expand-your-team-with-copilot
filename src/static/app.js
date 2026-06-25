@@ -569,7 +569,7 @@ document.addEventListener("DOMContentLoaded", () => {
         `
         }
         <button class="share-button" data-activity="${name}" aria-label="Share this activity">
-          📤 Share
+          <span aria-hidden="true">📤</span> Share
         </button>
       </div>
     `;
