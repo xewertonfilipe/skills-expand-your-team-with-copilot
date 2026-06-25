@@ -187,7 +187,9 @@ section h3 {
   margin-top: auto;
   padding-top: 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 }
 
 /* Activity Tag */
@@ -285,6 +287,27 @@ section h3 {
   letter-spacing: 0.3px;
   text-transform: uppercase;
   border: none;
+}
+
+.share-button {
+  background-color: transparent;
+  color: var(--primary);
+  border: 1px solid var(--primary-light);
+  padding: 5px 12px;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.share-button:hover {
+  background-color: var(--primary);
+  color: white;
 }
 
 button {
